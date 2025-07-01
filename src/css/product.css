@@ -1,0 +1,71 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.product-card h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 0.9em;
+    height: 50px; 
+    overflow: hidden; 
+}
+
+.product-card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+    background-color: #218838;
+}
+
+.logOut {
+    background-color:  #218838; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s; 
+    width: 100px;
+    text-align: center; 
+}
+
+.logOut:hover {
+    background-color: #218838;; 
+    transform: scale(1.05); 
+}
+
+.logOut:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); 
+}
